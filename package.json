@@ -1,0 +1,21 @@
+{
+  "name": "sample-ifcjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c ./rollup.config.js",
+    "watch": "rollup -w -c ./rollup.config.js"
+  },
+  "author": "Hiroshi Nishio",
+  "license": "ISC",
+  "dependencies": {
+    "web-ifc": "^0.0.36"
+  },
+  "devDependencies": {
+    "@open-wc/building-rollup": "^2.2.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "rollup": "^2.11.0"
+  }
+}
